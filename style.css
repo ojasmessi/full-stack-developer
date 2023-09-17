@@ -1,0 +1,54 @@
+/* h2{
+    color: orange;
+}
+
+p{
+    background-color: black;
+    color: rgb(0, 255, 255);
+}
+
+button{
+    color: #fff;
+    background-color: blue;
+} */
+
+/* h1{
+text-align: center;
+text-decoration: red underline;
+}
+
+h3{
+text-align: start;
+text-decoration:blue line-through;
+font-family: Verdana;
+}
+
+p{
+text-align: justify;
+font-weight: 300;
+line-height: 2;
+letter-spacing: 1px;
+font-family: Impact;
+}
+
+h2{
+font-weight: 800;
+text-decoration: black overline;
+}
+a{
+    text-decoration: none;
+} */
+
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
+
+}
