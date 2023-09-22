@@ -1,0 +1,134 @@
+/* Universal selector:
+*{
+    property: value;
+}
+Element selector:
+h1{
+
+}
+*/
+*{
+    font-family: monospace !important;
+}
+
+
+h3,h1{
+    color: #b92b27;
+}
+
+#signup{
+    color: white;
+    background-color: red;
+}
+#login{
+    color: white;
+    background-color: red;
+}
+
+.upvote{
+    color: white;
+    background-color: green;
+}
+
+/* descendant selector */
+.post a {
+    color: purple;
+    background-color: aqua;
+}
+
+nav ul li{
+    color: hotpink;
+}
+
+/* sibiling combinator*/
+.upvote + button{
+    color: chartreuse;
+    background-color: black;
+}
+
+/* child selector*/
+div > input{
+ background-color: antiquewhite;
+}
+
+/* attribute selector */
+input[type="text"]{
+    color: red;
+}
+
+input[type="password"]{
+    color: green;
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
+
+/* practice question: set color in paras inside
+divs with id "myId" to green
+
+1: div[id="myId"] p {
+
+}
+
+2: #myId p{
+
+}
+*/
+
+#myId p{
+color: blue;
+}
+
+button:hover{
+    color: green;
+    background-color: yellow;
+}
+
+/*Hover element*/
+h3:hover{
+text-decoration: overline;
+}
+
+/* active element*/
+button:active{
+    color: hotpink;
+}
+/* checked element */
+
+input[type="radio"] + label{
+color: red;
+font-weight: bolder;
+}
+
+/* Psuedo class*/
+
+.post:nth-of-type(2){
+    background-color: antiquewhite;
+}
+
+/* Psuedo element
+first letter::
+first line::
+selection::
+*/
+h1::first-letter{
+    color: black;
+}
+
+p::first-line{
+    color: black;
+}
+
+p::selection{
+    color: aqua;
+}
+
+
+/* 
+Specificity: id > class > element 
+Things to remember:
+1. id>class>element
+2. more selectors > less selectors
+3. if specificity SAME => cascading rules
+*/

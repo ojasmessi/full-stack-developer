@@ -1,0 +1,44 @@
+/*for the entire document */
+*{
+    text-align: center;
+}
+
+/*     id => use #id_name    */
+#mainTopic{
+    color: blue;
+}
+
+/* to give properties 
+to both of the headings */
+h1,h3{
+    font-family: Georgia;
+}
+
+/* class => use .class_name */
+.content{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div > button{
+    background-color: purple;
+    color: azure;
+}
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+p:nth-of-type(2n+1){
+    color: yellow;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+#yes:checked + label{
+    color: darkgreen;
+}
+
