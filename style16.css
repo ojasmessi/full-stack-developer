@@ -1,0 +1,40 @@
+#container{ 
+height: 300px;
+width: 80%;
+background-color: azure;
+margin: 10px auto;
+border: 2px solid black;
+display: flex;   /*in row-wise*/
+/* flex-wrap: wrap; */
+flex-wrap: wrap-reverse;
+/* flex-wrap: nowrap;  (BY-DEFAULT) */
+flex-direction: column;
+/* justify-content: space-evenly; */
+/* Flexbox-direction*/
+/* flex-direction: row;  */
+/* flex-direction: row-reverse;  */
+/* flex-direction: column-reverse; */
+align-items: flex-start;   /*FOR CROSS AXIS*/
+/* align-items: flex-end; */
+/* align-items: center; */
+
+
+/* Justify-content:flex-start/flex-end/center */
+/* space-between/ space-around/ space-evenly */
+/* justify-content: space-around; */
+/* justify-content: space-between; */
+
+
+
+}
+h1 {
+    text-align: center;
+}
+
+#container div{
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
