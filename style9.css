@@ -1,0 +1,21 @@
+div{
+background-color: black;
+color: aqua;
+transition: 1s;
+height: 150px;
+width: 150px;
+transition: ease-in;
+}
+
+button{
+    padding: 5px;
+    margin-left: 20%;
+}
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+    font-weight: bold;
+    border-radius: 50px;
+    transition-timing-function: ease;
+}

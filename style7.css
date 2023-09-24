@@ -1,0 +1,46 @@
+/* span{
+border: 2px solid lime;
+height: 100px;
+width: 200px;
+padding: 0.5%;
+/* display: block; 
+margin: 20px;
+} */
+
+div{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: lime;
+    margin: 5px;
+    display: inline-block;
+    /*incline block elements style 
+    block behave as inline*/
+    
+}
+
+#first{
+    display: none;
+    /*not to apply any property */
+}
+
+#outer{
+    background-color: blueviolet;
+    display: block;
+    height: 300px;
+    width: 300px;
+    border: 2px solid pink;
+    font-size: 20px;
+}
+
+#inner{
+    background-color: lime;
+    height: 100px;
+    width: 100px;
+    font-size: 2em;
+    /* em: Font size of the parent
+    rem: font size of the root element
+    */
+
+    /* margin:10% ; */
+}
