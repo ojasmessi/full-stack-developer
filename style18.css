@@ -1,0 +1,50 @@
+.container {
+    height: 300px;
+    width: 600px;
+    background-color: yellow;
+    display: grid;
+
+    /*grid-template : defines no. of lines and tracking sizing*/
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: 150px 150px 150px 150px; */
+
+    /*Repeat: to make proper rows and columns [repeat(count, fr)]*/
+    /* grid-template-rows: repeat(5, 1fr); */
+    grid-template-columns: repeat(3, 1fr);
+
+    /*Grid gaps: gaps between the lines*/
+row-gap: 10px;
+column-gap: 10px;
+/* grid-gap: 5px 5px;  =>  grid gap SHORTHAND*/
+}
+.one{
+/*grid columns: defines starting/ending positions inside the columns*/
+grid-column: 1/4;  /*start_col/end_col*/
+}
+
+.two{
+    /* grid-row-start:1 ; */
+    /* grid-row-end:3 ; */
+    grid-row: 1/4;
+}
+
+.item {
+    height: 50px;
+    width: 100px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* 
+HORIZANTAL
+justify-items (container)
+justify-self (item)
+
+VERTICAL
+align-items (container)
+align -self (item)
+
+place - items
+place-self
+  */
