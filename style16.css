@@ -1,23 +1,32 @@
-#container{ 
-height: 300px;
-width: 80%;
-background-color: azure;
-margin: 10px auto;
-border: 2px solid black;
-display: flex;   /*in row-wise*/
-/* flex-wrap: wrap; */
-flex-wrap: wrap-reverse;
-/* flex-wrap: nowrap;  (BY-DEFAULT) */
-flex-direction: column;
-/* justify-content: space-evenly; */
-/* Flexbox-direction*/
-/* flex-direction: row;  */
-/* flex-direction: row-reverse;  */
-/* flex-direction: column-reverse; */
-align-items: flex-start;   /*FOR CROSS AXIS*/
-/* align-items: flex-end; */
-/* align-items: center; */
+/*justify-content => main axis*/
+/*align-content => cross axis*/
+#container {
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    /*in row-wise*/
 
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap;  (BY-DEFAULT) */
+
+    flex-direction: column;
+    justify-content: flex-start;
+    /*Flexbox Shorthand: flex-grow | flex-shrink | flex-basis */
+    /* Flexbox-direction*/
+    /* flex-direction: row;  */
+    /* flex-direction: row-reverse;  */
+    /* flex-direction: column-reverse; */
+
+    /* align-items: flex-start;   FOR CROSS AXIS */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+    align-content: flex-start;
+}
 
 /* Justify-content:flex-start/flex-end/center */
 /* space-between/ space-around/ space-evenly */
@@ -25,13 +34,22 @@ align-items: flex-start;   /*FOR CROSS AXIS*/
 /* justify-content: space-between; */
 
 
-
+#org {
+    flex: 2 2 100px;
+    order: 6;
+    flex-shrink: 2;
+    /* flex-grow: 5; */
+    /* align-self: flex-end; */
+    /* flex-basis: 50px; */
 }
+
+
+
 h1 {
     text-align: center;
 }
 
-#container div{
+#container div {
     height: 100px;
     width: 300px;
     color: white;
