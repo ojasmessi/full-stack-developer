@@ -1,3 +1,5 @@
+/*CV: column vertical
+RH: row horizantal*/
 .container {
     height: 300px;
     width: 600px;
@@ -13,24 +15,29 @@
     grid-template-columns: repeat(3, 1fr);
 
     /*Grid gaps: gaps between the lines*/
-row-gap: 10px;
-column-gap: 10px;
-/* grid-gap: 5px 5px;  =>  grid gap SHORTHAND*/
-}
-.one{
-/*grid columns: defines starting/ending positions inside the columns*/
-grid-column: 1/4;  /*start_col/end_col*/
+    row-gap: 10px;
+    column-gap: 10px;
+    /* grid-gap: 5px 5px;  =>  grid gap SHORTHAND*/
 }
 
-.two{
+.one {
+    /*grid columns: defines starting/ending positions inside the columns*/
+    /* grid-column-start: 1; */
+    /* grid-column-end: 4; */
+    /*start_col/end_col*/
+    grid-column: 1/ span 4;
+}
+
+.two {
     /* grid-row-start:1 ; */
     /* grid-row-end:3 ; */
-    grid-row: 1/4;
+    grid-row: 1/ span 4;
+    grid-column: 1/ span 3;
 }
 
 .item {
-    height: 50px;
-    width: 100px;
+    /* height: 50px; */
+    /* width: 100px; */
     background-color: yellowgreen;
     border: 2px solid black;
     text-align: center;
