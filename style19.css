@@ -2,7 +2,7 @@
     height: 100px;
     width: 300px;
     background-color: pink;
-    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+/* animation: name duration timing-function delay iteration-count direction fill-mode; */
     animation-name: colAnimation, fontAnimation;
     animation-duration: 2s;
     animation-timing-function: ease-in;
