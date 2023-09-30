@@ -52,3 +52,13 @@ h1{
     text-transform: uppercase;
 
 }
+
+h1{
+    font-size: 15vw;
+    margin: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
