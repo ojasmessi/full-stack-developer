@@ -222,6 +222,58 @@ a {
     opacity: 0.4;
 }
 
-.music-player{
+.album{
     display: flex;
 }
+
+.album-image img{
+    height: 3.5rem;
+    width:  3.5rem;
+    border-radius: 7px;
+    margin: 0 1rem 0 1rem;
+    cursor: pointer;
+}
+
+.song-des{
+    margin-right: 1rem;
+}
+
+.song-name{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0.5rem 0 0.25rem 0;
+    cursor: pointer;
+}
+.song-name:hover{
+text-decoration: underline;
+}
+.singer-name{
+    font-size: 0.6rem;
+    font-weight: 400;
+    margin: 0.25rem 0 0.5rem 0;
+    cursor: pointer;
+}
+.singer-name:hover{
+    text-decoration: underline;
+    }
+
+    .heart-icon i{
+        height: 0.9rem;
+        width: 1rem;
+        /* padding: 20px; */
+        margin:1.25rem 0 0 1.25rem ;
+        /* display: flex; */
+        /* align-items: center; */
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    .silent-icon i{
+        height: 0.9rem;
+        width: 1rem;
+        /* padding: 20px; */
+        margin:1.25rem 0 0 1.2rem ;
+        /* display: flex; */
+        /* align-items: center; */
+        opacity: 0.7;
+        cursor: pointer;
+    }
