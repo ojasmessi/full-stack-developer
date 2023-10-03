@@ -145,6 +145,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    z-index: 10;
 }
 
 .nav-icons-left image {
@@ -205,4 +206,22 @@ a {
 .card-info {
     font-size: 0.85rem;
     opacity: 0.8;
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.line{
+    height: 30%;
+    width:  90%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
+.music-player{
+    display: flex;
 }
