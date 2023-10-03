@@ -159,7 +159,7 @@
     </div>
 
     <div class="music-player">
-        <div class="album">
+        <div class="album">          <!--1st div-->
             <div class="album-image">
                 <img src="./assests/album.jpg">
             </div>
@@ -176,14 +176,31 @@
                 <i class="fa-solid fa-headphones"></i>
             </div>
         </div>
-        <div class="player"></div>
 
-        <div class="controls">
-            <i class="fa-solid fa-headphones"></i>
-            <i class="fa-solid fa-headphones"></i>
-            <i class="fa-solid fa-headphones"></i>
-            <i class="fa-solid fa-headphones"></i>
-            <input type="range" 
+        <div class="player">            <!--2nd div-->
+            <div class="player-controls">
+                <img src="./assests/player_icon1.png" class="player-control-icon">
+                <img src="./assests/player_icon2.png" class="player-control-icon">
+                <img src="./assests/player_icon3.png" class="player-control-icon">
+                <img src="./assests/player_icon4.png" class="player-control-icon">
+                <img src="./assests/player_icon5.png" class="player-control-icon">
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00:00</span>
+                <input type="range" min="0" max="100" class="progress-bar">
+                <span class="tot-time">4:53</span>
+            </div>
+        </div>
+
+        <div class="controls">     <!--3rd div-->
+            <i class="fa-solid fa-play"></i>
+            <i class="fa-solid fa-microphone"></i>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-computer"></i>
+            <label for="vol"><i class="fa-solid fa-volume-off"></i></label>
+<!--step attribute: increases the range by given step counts-->
+<input type="range" id="vol" name="vol" min="0" max="100" step="10">
+
             
         </div>
 

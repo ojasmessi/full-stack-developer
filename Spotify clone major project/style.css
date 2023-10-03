@@ -36,6 +36,8 @@ body {
     bottom: 0;
     width: 100%;
     /* height: 50px; */
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 a {
@@ -190,7 +192,7 @@ a {
 
 .cards-container {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
 .card-image {
@@ -208,72 +210,102 @@ a {
     opacity: 0.8;
 }
 
-.footer{
+.footer {
     height: 300px;
     display: flex;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
 }
 
-.line{
+.line {
     height: 30%;
-    width:  90%;
+    width: 90%;
     border-top: 1px solid white;
     opacity: 0.4;
 }
 
-.album{
+.album {
     display: flex;
+    width: 25%;
 }
 
-.album-image img{
+.album-image img {
     height: 3.5rem;
-    width:  3.5rem;
+    width: 3.5rem;
     border-radius: 7px;
     margin: 0 1rem 0 1rem;
     cursor: pointer;
 }
 
-.song-des{
+.song-des {
     margin-right: 1rem;
 }
 
-.song-name{
+.song-name {
     font-size: 0.8rem;
     font-weight: 400;
     margin: 0.5rem 0 0.25rem 0;
     cursor: pointer;
 }
-.song-name:hover{
-text-decoration: underline;
+
+.song-name:hover {
+    text-decoration: underline;
 }
-.singer-name{
+
+.singer-name {
     font-size: 0.6rem;
     font-weight: 400;
     margin: 0.25rem 0 0.5rem 0;
     cursor: pointer;
 }
-.singer-name:hover{
-    text-decoration: underline;
-    }
 
-    .heart-icon i{
-        height: 0.9rem;
-        width: 1rem;
-        /* padding: 20px; */
-        margin:1.25rem 0 0 1.25rem ;
-        /* display: flex; */
-        /* align-items: center; */
-        opacity: 0.7;
-        cursor: pointer;
-    }
-    .silent-icon i{
-        height: 0.9rem;
-        width: 1rem;
-        /* padding: 20px; */
-        margin:1.25rem 0 0 1.2rem ;
-        /* display: flex; */
-        /* align-items: center; */
-        opacity: 0.7;
-        cursor: pointer;
-    }
+.singer-name:hover {
+    text-decoration: underline;
+}
+
+.heart-icon i {
+    height: 0.9rem;
+    width: 1rem;
+    margin: 1.25rem 0 0 1.25rem;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.silent-icon i {
+    height: 0.9rem;
+    width: 1rem;
+    margin: 1.25rem 0 0 1.2rem;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+i:hover {
+    opacity: 1;
+}
+
+.controls{
+    width: 25%;
+}
+
+.controls i {
+    height: 0.9rem;
+    width: 1rem;
+    margin: 1.25rem 0 0 1.2rem;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.controls i:hover {
+    opacity: 1;
+}
+
+.music-player{
+    display: flex;
+}
+
+.player{
+    width: 50%;
+}
+.player-control-icon{
+    height: 1rem;
+}
