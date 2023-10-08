@@ -1,9 +1,5 @@
-// // console.log("1");
-// // console.log("2");
-// // console.log("3");
-// // console.log("4");
-// // console.log("5");
 
+//LOOP
 // // for(let i = 10; i<=5; i--){
 // //     console.log(i);
 // // }
@@ -26,34 +22,47 @@
     
 // }
 
-//nested loop
-for(let i=1; i<=3; i++ ){
-    for(let j=1; j<=3; j++){
-        console.log(j);
-    }
-}
+// //NESTED LOOP
+// for(let i=1; i<=3; i++ ){
+//     for(let j=1; j<=3; j++){
+//         console.log(j);
+//     }
+// }
 
 
-//while loops
-let i = 1;
-while (i<=5) {
-    console.log(i)
-}
+// //WHILE LOOP
+// let i = 1;
+// while (i<=5) {
+//     console.log(i)
+// }
 
-//break
-const favmovie = "don";
+// //BREAK
+// const favmovie = "don";
 
-let guess = prompt("Guess the movie:");
+// let guess = prompt("Guess the movie:");
 
-while (guess != favmovie) {
-    if (guess == "quit") {
-        console.log("you quit")
-        break;
-    }
-    guess = prompt("wrong guess.try again!");
+// while (guess != favmovie) {
+//     if (guess == "quit") {
+//         console.log("you quit")
+//         break;
+//     }
+//     guess = prompt("wrong guess.try again!");
     
-}
+// }
 
-if (guess == favmovie) {
-    console.log("congo!")
+// if (guess == favmovie) {
+//     console.log("congo!")
+// }
+
+
+//LOOP WITH ARRAY
+let fruits = ["banana", "orange", "apple", "litchi", "watermelon"];
+fruits.push("pineapple");
+
+// for (let i = 0; i < fruits.length; i++) {
+//     console.log(i, fruits[i]);
+//     }
+
+for (fruit of fruits) {
+    console.log(fruit);
 }
