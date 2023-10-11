@@ -1,7 +1,7 @@
 //Q1 random dice roll
 let dice = Math.floor(Math.random() * 6) + 1;
 
-console.log(dice);
+// console.log(dice);
 
 //Q2 object literals car details
 let car = {
@@ -9,7 +9,7 @@ let car = {
     model: 'X5',
     color: 'black'
 }
-console.log(car);
+// console.log(car);
 
 //Q3 object literals person details
 let person = {
@@ -20,4 +20,4 @@ let person = {
 
 person.city = 'New York';
 person.country = 'USA';
-console.log(person);
+// console.log(person);
