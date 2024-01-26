@@ -1,6 +1,11 @@
 let inp = document.querySelector("input");
+
+
 // inp.addEventListener("keydown", function(){
 inp.addEventListener("keyup", function(event){
+// inp.addEventListener("keyup", (event) =>{
+
+
     console.log(`code = ${event.code}`);
     // console.log("key released!");
     // console.log(event);
