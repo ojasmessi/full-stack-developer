@@ -1,4 +1,24 @@
-body {
+h1{
+  color: purple;
+}
+#btn{
+  background-color: blue;
+  color: white;
+}
+
+/* .red{
+  color: red;
+}
+.blue{
+  color: blue;
+}
+
+.div{
+  border: 1px solid black;
+  background-color: pink;
+} */
+
+/* body {
   font-family: Arial;
 }
 
@@ -25,4 +45,4 @@ body {
 
 #description {
   background-color: antiquewhite;
-}
+} */
